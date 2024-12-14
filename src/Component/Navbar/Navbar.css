@@ -1,0 +1,35 @@
+.navbar-light .navbar-nav .nav-link {
+    color:#ab882f;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-right: 10px;
+    font-family: 'Epilogue';
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:  #ab882f ;
+    border-bottom: 1px solid #ab882f ;
+}
+.Logo-img{
+    width: 100px;
+}
+
+.navbar{
+ box-shadow: 2px 1px 5px 1px #ab882f;
+position: fixed;
+z-index: 200;
+top: 0;
+left: 0;
+right: 0;
+background-color: #242b36;
+ 
+ 
+}
+.navbar-light .navbar-toggler{
+    color: #ab882f;
+    background-color: #ab882f;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#ab882f;
+    border-bottom: 2px solid #ab882f;
+}

@@ -1,0 +1,89 @@
+.Services-Heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #ab882f;
+    margin-top: 0;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.what-offer{
+    text-align: center;
+    color:#ab882f;
+    height: 20px;  
+}
+.Services-Cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 62px 0 72px 0;
+    flex-wrap: wrap;
+    
+}
+
+.Img-Card-Service{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.Card-Service {
+    /*border: 1px solid  #ab882f ;*/
+    width: 300px;
+    box-shadow: 0px 2px 6px 5px #242b36;
+   border-radius: 20px; 
+   background-color: #242b36;
+   transition: 0.5s;   
+}
+.Card-Service:hover {
+    transform: scale(1.1);
+    box-shadow:0px 2px 6px 5px #ab882f ;
+    
+
+   
+}
+.Services-title  {
+   text-align: center;
+    font-size: 1.3rem;
+    color:   #ab882f;
+    margin-bottom: 19px;
+}
+.Services-text {
+    width: 325px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    font-family: 'Epilogue';
+    color: #242b36;
+    text-align: center;
+}
+.Icon-Container{
+    font-size: 4rem;
+    color: #ab882f;
+}
+
+/*Responsive*/
+@media (max-width:1115px){
+
+.Card-Service {
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width:500px){
+    .Services-Cards{
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+@media(max-width:400px){
+    .Services-text {
+        width: 100%;
+    }
+    .card{
+        margin: 20px 0;
+    }
+    
+
+}
+
+

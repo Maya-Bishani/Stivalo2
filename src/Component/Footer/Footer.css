@@ -1,0 +1,53 @@
+.Container-Footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #242b36;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 20px ;
+    color: #ab882f;
+    flex-wrap: wrap;
+}
+
+.Company-Name{
+    color:  #ab882f;
+    border-bottom: 1px solid  #ab882f;
+    width: 200px;
+}
+.logo{
+    width: 200px;
+    
+    
+  /* animation: move1 2.5s linear infinite forwards;*/
+}
+.keep{
+    width: max-content;
+    border-bottom: 1px solid #ab882f;
+}
+.Info{
+    width: 300px; 
+}
+
+.Info a{
+    text-decoration: none;
+    color: #ab882f;
+   
+    
+}
+.Social-Media a{
+text-decoration: none;
+color: #ab882f;
+font-size: 2rem;
+}
+@media(max-width:535px){
+    .Container-Footer{
+        gap: 30px;
+       
+       
+    }
+    .keep , .Info{
+padding-left: 30px;
+   }
+}

@@ -1,0 +1,133 @@
+.Team-Heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #ab882f;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.carousel-control-prev-icon{
+    color: #ab882f !important;
+}
+
+.Team-Cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 72px 0;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+   
+}
+.Img-Card-Team{
+    width: 130px;
+    height: 130px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    border: 5px solid #ab882f;
+    transition: 0.5s;
+
+}
+.Img-Card-Team:hover{
+transform: scale(1.2);
+}
+
+button {
+    margin: 10px;
+    
+}
+.great-team{
+    color: #ab882f;
+    height: 20px;
+}
+
+.border-img{
+    width: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+}
+.Card-Team {
+    box-shadow: 0px 5px 8px #242b36;
+    width: 300px;
+   background-color: #242b36;
+    padding: 0;
+    margin: 0;
+    border-radius: 25px;
+}
+.Team-title  {
+   text-align: center;
+    font-family: 'Epilogue';
+    font-size: 1.3rem;
+    color:   #242b36;
+    margin-bottom: 19px;
+}
+.Team-text {
+    font-family: 'Epilogue';
+    color: #242b36;
+    text-align: center; 
+}
+
+.btn-team-card{
+    background-color: #242b36;
+    color:#ab882f;
+    border: none;
+    margin: auto;
+    transition: 0.5s;
+   
+
+}
+.btn-team-card:hover{
+    background-color: #ab882f;
+    color: #242b36;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px #242b36;
+}
+.Body-card{
+    background-color: white;
+    border-radius: 25px ;
+    
+}
+
+.carousel-control-next {
+    /*right: 0;
+    color: #242b36;*/
+    opacity: 1;
+}
+.carousel-control-prev {
+  
+    
+    opacity: 1;
+}
+
+.visually-hidden{
+    opacity: 0;
+
+}
+
+@media (max-width:1115px){
+    .Card-Team{
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:500px){
+    .Team-Cards{
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+@media(max-width:400px){
+    .Team-text {
+        width: 100%;
+    }
+    .card{
+        margin: 30px 0;
+    }
+    .Team-Heading{
+        margin-top: 35px;
+    }
+
+}
+
+

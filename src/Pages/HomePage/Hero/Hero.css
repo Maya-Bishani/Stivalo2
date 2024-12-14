@@ -1,0 +1,87 @@
+.Hero{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 80px;
+    margin-bottom: 90px;
+
+ 
+}
+.MB_Paragraph{
+    color: #ab882f;
+    height: 40px;
+}
+.MB_Paragraph1{
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 1.625rem;
+    margin-top: 73px;
+   color:#ab882f;  
+   margin-bottom: 2%;
+   
+}
+
+.MB_Paragraph3{
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color:#242b36;
+    width: 600px;
+}
+.MB-Hero-img{
+    width: 360px;
+    Height:350px;
+   animation: move1 2.5s linear infinite forwards;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+    
+
+@keyframes move1 {
+    50% {
+        transform: translateY(-10PX);
+    }
+    75% {
+        transform: translateY(10PX);
+    }
+    100% {
+        transform: translateY(0PX);
+    }
+}
+ /*Responsive*/
+ @media (max-width:820px) {
+    .Hero{
+        flex-wrap: wrap;
+       /* margin-bottom: 400px;*/
+    }
+    .MB-Hero-img{
+        margin-top: 30px;
+    }
+ }
+ @media (max-width:640px){
+    .MB_Paragraph3{
+        width: 100%;
+    }
+ }
+
+ @media (max-width:500px) {
+    .Hero{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .MB_Paragraph1{
+        
+        text-align: center;
+    }
+    
+    .MB_Paragraph3 ,.MB_Paragraph {
+        text-align: center;
+    }
+ }
+ @media (max-width:480px) {
+    .Hero{
+        margin-bottom: 50px;
+    }
+
+ }

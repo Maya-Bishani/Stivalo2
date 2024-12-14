@@ -1,0 +1,79 @@
+.Container-Contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+   flex-wrap: wrap;
+}
+.Heading-Contact{
+    text-align: center;
+    color: #ab882f;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.Paraghraph-Contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact{
+    color:  #ab882f;
+   
+}
+
+
+.form-control {
+    background-color: #F3F3F3;
+    width: 530px;
+    height: 69px;
+    border: none;
+    margin-bottom: 20px;
+}
+.placeholder {
+    color: #2D2D2D !important;
+    font-weight: 400 !important;
+    font-size: 1.125rem;
+    
+}
+textarea.form-control {
+    height: 232px;
+}
+
+.form-btn{
+    background-color: #242b36;
+    border:none;
+    width: 150px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #ab882f;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.form-btn:hover {
+    background-color: #ab882f;
+    color: #242b36;  
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px #242b36;
+}
+@media (max-width:1115px){
+    .Container-Contact{
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+@media (max-width:600px) {
+    .form-control{
+        width: 315px;
+    }
+    .form-btn{
+        margin-bottom: 30px;
+    }
+    iframe{
+        width: 100%;
+       
+    }
+    
+    
+}
